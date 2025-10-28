@@ -1,6 +1,12 @@
+    /* Box sizing and sensible defaults */
+    *, *::before, *::after { box-sizing: border-box; }
+
     body {
         font-family: Arial, sans-serif;
         padding: 20px;
+        margin: 0;
+        background: #f7f9fc;
+        color: #1a1a1a;
     }
 
     .function-box {
@@ -8,6 +14,8 @@
         padding: 15px;
         margin: 10px 0;
         border-left: 5px solid #0057b8;
+        max-width: 900px;
+        border-radius: 4px;
     }
 
     .output,
@@ -26,6 +34,9 @@
     input {
         margin: 3px;
         width: 240px;
+        padding: 6px 8px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
     }
 
     small {
